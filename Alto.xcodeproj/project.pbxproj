@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E7200D899C00B50431 /* AppDelegate.swift */; };
+		F550F2EA200D899C00B50431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E9200D899C00B50431 /* ViewController.swift */; };
+		F550F2ED200D899C00B50431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EB200D899C00B50431 /* Main.storyboard */; };
+		F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EE200D899C00B50431 /* Assets.xcassets */; };
+		F550F2F2200D899C00B50431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2F0200D899C00B50431 /* LaunchScreen.storyboard */; };
+		F550F2FD200D899C00B50431 /* AltoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2FC200D899C00B50431 /* AltoTests.swift */; };
+		F550F308200D899C00B50431 /* AltoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F307200D899C00B50431 /* AltoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F550F2F9200D899C00B50431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F550F2DC200D899C00B50431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F550F2E3200D899C00B50431;
+			remoteInfo = Alto;
+		};
+		F550F304200D899C00B50431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F550F2DC200D899C00B50431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F550F2E3200D899C00B50431;
+			remoteInfo = Alto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F550F2E4200D899C00B50431 /* Alto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F550F2E7200D899C00B50431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F550F2E9200D899C00B50431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F550F2EC200D899C00B50431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F550F2EE200D899C00B50431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F550F2F1200D899C00B50431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F550F2F3200D899C00B50431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F550F2F8200D899C00B50431 /* AltoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F550F2FC200D899C00B50431 /* AltoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltoTests.swift; sourceTree = "<group>"; };
+		F550F2FE200D899C00B50431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F550F303200D899C00B50431 /* AltoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F550F307200D899C00B50431 /* AltoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltoUITests.swift; sourceTree = "<group>"; };
+		F550F309200D899C00B50431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F550F2E1200D899C00B50431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F550F2F5200D899C00B50431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F550F300200D899C00B50431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F550F2DB200D899C00B50431 = {
+			isa = PBXGroup;
+			children = (
+				F550F2E6200D899C00B50431 /* Alto */,
+				F550F2FB200D899C00B50431 /* AltoTests */,
+				F550F306200D899C00B50431 /* AltoUITests */,
+				F550F2E5200D899C00B50431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F550F2E5200D899C00B50431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F550F2E4200D899C00B50431 /* Alto.app */,
+				F550F2F8200D899C00B50431 /* AltoTests.xctest */,
+				F550F303200D899C00B50431 /* AltoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F550F2E6200D899C00B50431 /* Alto */ = {
+			isa = PBXGroup;
+			children = (
+				F550F2E7200D899C00B50431 /* AppDelegate.swift */,
+				F550F2E9200D899C00B50431 /* ViewController.swift */,
+				F550F2EB200D899C00B50431 /* Main.storyboard */,
+				F550F2EE200D899C00B50431 /* Assets.xcassets */,
+				F550F2F0200D899C00B50431 /* LaunchScreen.storyboard */,
+				F550F2F3200D899C00B50431 /* Info.plist */,
+			);
+			path = Alto;
+			sourceTree = "<group>";
+		};
+		F550F2FB200D899C00B50431 /* AltoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F550F2FC200D899C00B50431 /* AltoTests.swift */,
+				F550F2FE200D899C00B50431 /* Info.plist */,
+			);
+			path = AltoTests;
+			sourceTree = "<group>";
+		};
+		F550F306200D899C00B50431 /* AltoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F550F307200D899C00B50431 /* AltoUITests.swift */,
+				F550F309200D899C00B50431 /* Info.plist */,
+			);
+			path = AltoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F550F2E3200D899C00B50431 /* Alto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F550F30C200D899C00B50431 /* Build configuration list for PBXNativeTarget "Alto" */;
+			buildPhases = (
+				F550F2E0200D899C00B50431 /* Sources */,
+				F550F2E1200D899C00B50431 /* Frameworks */,
+				F550F2E2200D899C00B50431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alto;
+			productName = Alto;
+			productReference = F550F2E4200D899C00B50431 /* Alto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F550F2F7200D899C00B50431 /* AltoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F550F30F200D899C00B50431 /* Build configuration list for PBXNativeTarget "AltoTests" */;
+			buildPhases = (
+				F550F2F4200D899C00B50431 /* Sources */,
+				F550F2F5200D899C00B50431 /* Frameworks */,
+				F550F2F6200D899C00B50431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F550F2FA200D899C00B50431 /* PBXTargetDependency */,
+			);
+			name = AltoTests;
+			productName = AltoTests;
+			productReference = F550F2F8200D899C00B50431 /* AltoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F550F302200D899C00B50431 /* AltoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F550F312200D899C00B50431 /* Build configuration list for PBXNativeTarget "AltoUITests" */;
+			buildPhases = (
+				F550F2FF200D899C00B50431 /* Sources */,
+				F550F300200D899C00B50431 /* Frameworks */,
+				F550F301200D899C00B50431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F550F305200D899C00B50431 /* PBXTargetDependency */,
+			);
+			name = AltoUITests;
+			productName = AltoUITests;
+			productReference = F550F303200D899C00B50431 /* AltoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F550F2DC200D899C00B50431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nekturlabs;
+				TargetAttributes = {
+					F550F2E3200D899C00B50431 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F550F2F7200D899C00B50431 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F550F2E3200D899C00B50431;
+					};
+					F550F302200D899C00B50431 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F550F2E3200D899C00B50431;
+					};
+				};
+			};
+			buildConfigurationList = F550F2DF200D899C00B50431 /* Build configuration list for PBXProject "Alto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F550F2DB200D899C00B50431;
+			productRefGroup = F550F2E5200D899C00B50431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F550F2E3200D899C00B50431 /* Alto */,
+				F550F2F7200D899C00B50431 /* AltoTests */,
+				F550F302200D899C00B50431 /* AltoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F550F2E2200D899C00B50431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F550F2F2200D899C00B50431 /* LaunchScreen.storyboard in Resources */,
+				F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */,
+				F550F2ED200D899C00B50431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F550F2F6200D899C00B50431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F550F301200D899C00B50431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F550F2E0200D899C00B50431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F550F2EA200D899C00B50431 /* ViewController.swift in Sources */,
+				F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F550F2F4200D899C00B50431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F550F2FD200D899C00B50431 /* AltoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F550F2FF200D899C00B50431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F550F308200D899C00B50431 /* AltoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F550F2FA200D899C00B50431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F550F2E3200D899C00B50431 /* Alto */;
+			targetProxy = F550F2F9200D899C00B50431 /* PBXContainerItemProxy */;
+		};
+		F550F305200D899C00B50431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F550F2E3200D899C00B50431 /* Alto */;
+			targetProxy = F550F304200D899C00B50431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F550F2EB200D899C00B50431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F550F2EC200D899C00B50431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F550F2F0200D899C00B50431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F550F2F1200D899C00B50431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F550F30A200D899C00B50431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F550F30B200D899C00B50431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F550F30D200D899C00B50431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DJPBY6593;
+				INFOPLIST_FILE = Alto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekturlabs.Alto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F550F30E200D899C00B50431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DJPBY6593;
+				INFOPLIST_FILE = Alto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekturlabs.Alto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F550F310200D899C00B50431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DJPBY6593;
+				INFOPLIST_FILE = AltoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekturlabs.AltoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alto.app/Alto";
+			};
+			name = Debug;
+		};
+		F550F311200D899C00B50431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DJPBY6593;
+				INFOPLIST_FILE = AltoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekturlabs.AltoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alto.app/Alto";
+			};
+			name = Release;
+		};
+		F550F313200D899C00B50431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DJPBY6593;
+				INFOPLIST_FILE = AltoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekturlabs.AltoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alto;
+			};
+			name = Debug;
+		};
+		F550F314200D899C00B50431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DJPBY6593;
+				INFOPLIST_FILE = AltoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nekturlabs.AltoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F550F2DF200D899C00B50431 /* Build configuration list for PBXProject "Alto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F550F30A200D899C00B50431 /* Debug */,
+				F550F30B200D899C00B50431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F550F30C200D899C00B50431 /* Build configuration list for PBXNativeTarget "Alto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F550F30D200D899C00B50431 /* Debug */,
+				F550F30E200D899C00B50431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F550F30F200D899C00B50431 /* Build configuration list for PBXNativeTarget "AltoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F550F310200D899C00B50431 /* Debug */,
+				F550F311200D899C00B50431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F550F312200D899C00B50431 /* Build configuration list for PBXNativeTarget "AltoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F550F313200D899C00B50431 /* Debug */,
+				F550F314200D899C00B50431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F550F2DC200D899C00B50431 /* Project object */;
+}
