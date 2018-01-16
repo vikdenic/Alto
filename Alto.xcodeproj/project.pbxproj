@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E7200D899C00B50431 /* AppDelegate.swift */; };
-		F550F2EA200D899C00B50431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E9200D899C00B50431 /* ViewController.swift */; };
+		F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E9200D899C00B50431 /* BaseViewController.swift */; };
 		F550F2ED200D899C00B50431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EB200D899C00B50431 /* Main.storyboard */; };
 		F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EE200D899C00B50431 /* Assets.xcassets */; };
 		F550F2F2200D899C00B50431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2F0200D899C00B50431 /* LaunchScreen.storyboard */; };
 		F550F2FD200D899C00B50431 /* AltoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2FC200D899C00B50431 /* AltoTests.swift */; };
 		F550F308200D899C00B50431 /* AltoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F307200D899C00B50431 /* AltoUITests.swift */; };
+		F550F316200D8E2D00B50431 /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F315200D8E2D00B50431 /* Library.storyboard */; };
+		F550F318200D8E3700B50431 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F317200D8E3700B50431 /* Search.storyboard */; };
+		F550F31A200D8E4300B50431 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F319200D8E4300B50431 /* Settings.storyboard */; };
+		F550F31C200D8FD400B50431 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31B200D8FD400B50431 /* BaseTabBarController.swift */; };
+		F550F31E200D904600B50431 /* MiniPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31D200D904600B50431 /* MiniPlayerViewController.swift */; };
+		F550F320200D907B00B50431 /* MiniPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F31F200D907B00B50431 /* MiniPlayer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		F550F2E4200D899C00B50431 /* Alto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F550F2E7200D899C00B50431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F550F2E9200D899C00B50431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F550F2E9200D899C00B50431 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F550F2EC200D899C00B50431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F550F2EE200D899C00B50431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F550F2F1200D899C00B50431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		F550F303200D899C00B50431 /* AltoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F550F307200D899C00B50431 /* AltoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltoUITests.swift; sourceTree = "<group>"; };
 		F550F309200D899C00B50431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F550F315200D8E2D00B50431 /* Library.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
+		F550F317200D8E3700B50431 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		F550F319200D8E4300B50431 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		F550F31B200D8FD400B50431 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		F550F31D200D904600B50431 /* MiniPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerViewController.swift; sourceTree = "<group>"; };
+		F550F31F200D907B00B50431 /* MiniPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniPlayer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				F550F2E7200D899C00B50431 /* AppDelegate.swift */,
-				F550F2E9200D899C00B50431 /* ViewController.swift */,
-				F550F2EB200D899C00B50431 /* Main.storyboard */,
+				F550F324200D98F300B50431 /* Controller */,
 				F550F2EE200D899C00B50431 /* Assets.xcassets */,
 				F550F2F0200D899C00B50431 /* LaunchScreen.storyboard */,
 				F550F2F3200D899C00B50431 /* Info.plist */,
@@ -123,6 +134,45 @@
 				F550F309200D899C00B50431 /* Info.plist */,
 			);
 			path = AltoUITests;
+			sourceTree = "<group>";
+		};
+		F550F321200D98D300B50431 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F550F2E9200D899C00B50431 /* BaseViewController.swift */,
+				F550F2EB200D899C00B50431 /* Main.storyboard */,
+				F550F31B200D8FD400B50431 /* BaseTabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F550F322200D98DA00B50431 /* MiniPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F550F31F200D907B00B50431 /* MiniPlayer.storyboard */,
+				F550F31D200D904600B50431 /* MiniPlayerViewController.swift */,
+			);
+			path = MiniPlayer;
+			sourceTree = "<group>";
+		};
+		F550F323200D98E300B50431 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F550F315200D8E2D00B50431 /* Library.storyboard */,
+				F550F317200D8E3700B50431 /* Search.storyboard */,
+				F550F319200D8E4300B50431 /* Settings.storyboard */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		F550F324200D98F300B50431 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F550F321200D98D300B50431 /* Base */,
+				F550F322200D98DA00B50431 /* MiniPlayer */,
+				F550F323200D98E300B50431 /* Tabs */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +284,11 @@
 			files = (
 				F550F2F2200D899C00B50431 /* LaunchScreen.storyboard in Resources */,
 				F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */,
+				F550F316200D8E2D00B50431 /* Library.storyboard in Resources */,
+				F550F31A200D8E4300B50431 /* Settings.storyboard in Resources */,
 				F550F2ED200D899C00B50431 /* Main.storyboard in Resources */,
+				F550F320200D907B00B50431 /* MiniPlayer.storyboard in Resources */,
+				F550F318200D8E3700B50431 /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F550F2EA200D899C00B50431 /* ViewController.swift in Sources */,
+				F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */,
 				F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */,
+				F550F31E200D904600B50431 /* MiniPlayerViewController.swift in Sources */,
+				F550F31C200D8FD400B50431 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
