@@ -1,18 +1,17 @@
 //
-//  BaseTabBarController.swift
+//  NowPlayingViewController.swift
 //  Alto
 //
-//  Created by Vik Denic on 1/15/18.
+//  Created by Vik Denic on 1/16/18.
 //  Copyright © 2018 nekturlabs. All rights reserved.
 //
 
 import UIKit
 
-class BaseTabBarController: UITabBarController {
+class NowPlayingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.selectedIndex = 4
     }
 
 }

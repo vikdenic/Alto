@@ -26,6 +26,8 @@
 		F550F31E200D904600B50431 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31D200D904600B50431 /* MiniPlayerView.swift */; };
 		F550F326200DBDF200B50431 /* Queue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F325200DBDF200B50431 /* Queue.storyboard */; };
 		F550F328200DBE9200B50431 /* Playlists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F327200DBE9200B50431 /* Playlists.storyboard */; };
+		F5841934200EFB24005913EF /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5841933200EFB24005913EF /* NowPlayingViewController.swift */; };
+		F5841936200EFB47005913EF /* NowPlaying.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5841935200EFB47005913EF /* NowPlaying.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		F550F31D200D904600B50431 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		F550F325200DBDF200B50431 /* Queue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Queue.storyboard; sourceTree = "<group>"; };
 		F550F327200DBE9200B50431 /* Playlists.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Playlists.storyboard; sourceTree = "<group>"; };
+		F5841933200EFB24005913EF /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		F5841935200EFB47005913EF /* NowPlaying.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NowPlaying.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,9 +239,19 @@
 			children = (
 				F550F321200D98D300B50431 /* Base */,
 				F550F322200D98DA00B50431 /* MiniPlayer */,
+				F5841937200EFB69005913EF /* Now Playing */,
 				F550F323200D98E300B50431 /* Tabs */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5841937200EFB69005913EF /* Now Playing */ = {
+			isa = PBXGroup;
+			children = (
+				F5841935200EFB47005913EF /* NowPlaying.storyboard */,
+				F5841933200EFB24005913EF /* NowPlayingViewController.swift */,
+			);
+			path = "Now Playing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +374,7 @@
 				F550F2F2200D899C00B50431 /* LaunchScreen.storyboard in Resources */,
 				F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */,
 				F550F316200D8E2D00B50431 /* Library.storyboard in Resources */,
+				F5841936200EFB47005913EF /* NowPlaying.storyboard in Resources */,
 				F550F31A200D8E4300B50431 /* Settings.storyboard in Resources */,
 				F550F326200DBDF200B50431 /* Queue.storyboard in Resources */,
 				F550F2ED200D899C00B50431 /* Main.storyboard in Resources */,
@@ -545,6 +560,7 @@
 				F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */,
 				F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */,
 				F550F31E200D904600B50431 /* MiniPlayerView.swift in Sources */,
+				F5841934200EFB24005913EF /* NowPlayingViewController.swift in Sources */,
 				F550F31C200D8FD400B50431 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,16 +46,17 @@
                     <connections>
                         <outlet property="miniPlayerBottomConstraint" destination="smc-HS-4fK" id="akv-od-Bdt"/>
                         <outlet property="miniPlayerView" destination="H6e-UN-obY" id="oEh-zX-apD"/>
+                        <segue destination="g3f-Od-An8" kind="custom" identifier="BaseViewControllerToNowPlayingViewController" customClass="DeckSegue" customModule="DeckTransition" id="S6k-B0-Gdw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Base Tab Bar Controller-->
         <scene sceneID="cwK-mx-Rng">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wTx-Kn-Qk5" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wTx-Kn-Qk5" customClass="BaseTabBarController" customModule="Alto" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="DHM-V4-gwc">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -129,6 +130,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DWf-Rl-mB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1478" y="58"/>
+        </scene>
+        <!--NowPlaying-->
+        <scene sceneID="9TY-vX-Z9A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NowPlaying" id="g3f-Od-An8" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GP6-8Q-YQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="376"/>
         </scene>
     </scenes>
 </document>

@@ -8,6 +8,7 @@
 
 import UIKit
 import OAuthSwift
+import DeckTransition
 
 class BaseViewController: UIViewController {
 
@@ -22,6 +23,7 @@ class BaseViewController: UIViewController {
         
         self.miniPlayerView.didTapSuperview = { gesture in
             print("👆didTapSuperview")
+            self.performSegue(withIdentifier: "\(BaseViewController.className)To\(NowPlayingViewController.className)", sender: self)
         }
     }
     
