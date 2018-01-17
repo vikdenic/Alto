@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5739F459D6283F4E6D544E /* Pods_AltoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E8D8F83B90A4A6FB733974 /* Pods_AltoTests.framework */; };
+		D0CBC6862D9E918C76FCB0B6 /* Pods_AltoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846E35D41364023A1EC8575F /* Pods_AltoUITests.framework */; };
+		E91900D46A6D90F2B7D4852D /* Pods_Alto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148A45BE16A99598F80C553B /* Pods_Alto.framework */; };
 		F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E7200D899C00B50431 /* AppDelegate.swift */; };
 		F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E9200D899C00B50431 /* BaseViewController.swift */; };
 		F550F2ED200D899C00B50431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EB200D899C00B50431 /* Main.storyboard */; };
@@ -20,6 +23,8 @@
 		F550F31C200D8FD400B50431 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31B200D8FD400B50431 /* BaseTabBarController.swift */; };
 		F550F31E200D904600B50431 /* MiniPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31D200D904600B50431 /* MiniPlayerViewController.swift */; };
 		F550F320200D907B00B50431 /* MiniPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F31F200D907B00B50431 /* MiniPlayer.storyboard */; };
+		F550F326200DBDF200B50431 /* Queue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F325200DBDF200B50431 /* Queue.storyboard */; };
+		F550F328200DBE9200B50431 /* Playlists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F327200DBE9200B50431 /* Playlists.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03EC6F59446CE0A546515DC8 /* Pods-AltoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AltoUITests/Pods-AltoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10E396DE78B015FF99F6C298 /* Pods-AltoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AltoTests/Pods-AltoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		148A45BE16A99598F80C553B /* Pods_Alto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222088ECCDB2C06EF6B7D1C4 /* Pods-Alto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alto/Pods-Alto.debug.xcconfig"; sourceTree = "<group>"; };
+		3DE1F3D749EC1F55E5212528 /* Pods-AltoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AltoTests/Pods-AltoTests.release.xcconfig"; sourceTree = "<group>"; };
+		846E35D41364023A1EC8575F /* Pods_AltoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C260463E80DAD22785307B91 /* Pods-AltoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AltoUITests/Pods-AltoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7E8D8F83B90A4A6FB733974 /* Pods_AltoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D2E0263DDB2E64ECE0C01D /* Pods-Alto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alto/Pods-Alto.release.xcconfig"; sourceTree = "<group>"; };
 		F550F2E4200D899C00B50431 /* Alto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F550F2E7200D899C00B50431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F550F2E9200D899C00B50431 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +73,8 @@
 		F550F31B200D8FD400B50431 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		F550F31D200D904600B50431 /* MiniPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerViewController.swift; sourceTree = "<group>"; };
 		F550F31F200D907B00B50431 /* MiniPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniPlayer.storyboard; sourceTree = "<group>"; };
+		F550F325200DBDF200B50431 /* Queue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Queue.storyboard; sourceTree = "<group>"; };
+		F550F327200DBE9200B50431 /* Playlists.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Playlists.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91900D46A6D90F2B7D4852D /* Pods_Alto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5739F459D6283F4E6D544E /* Pods_AltoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CBC6862D9E918C76FCB0B6 /* Pods_AltoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6424D8746FFE08C8AECC4942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148A45BE16A99598F80C553B /* Pods_Alto.framework */,
+				E7E8D8F83B90A4A6FB733974 /* Pods_AltoTests.framework */,
+				846E35D41364023A1EC8575F /* Pods_AltoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DDA7A5ACE85FE78FFBB1A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				222088ECCDB2C06EF6B7D1C4 /* Pods-Alto.debug.xcconfig */,
+				F0D2E0263DDB2E64ECE0C01D /* Pods-Alto.release.xcconfig */,
+				10E396DE78B015FF99F6C298 /* Pods-AltoTests.debug.xcconfig */,
+				3DE1F3D749EC1F55E5212528 /* Pods-AltoTests.release.xcconfig */,
+				03EC6F59446CE0A546515DC8 /* Pods-AltoUITests.debug.xcconfig */,
+				C260463E80DAD22785307B91 /* Pods-AltoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F550F2DB200D899C00B50431 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +135,8 @@
 				F550F2FB200D899C00B50431 /* AltoTests */,
 				F550F306200D899C00B50431 /* AltoUITests */,
 				F550F2E5200D899C00B50431 /* Products */,
+				89DDA7A5ACE85FE78FFBB1A7 /* Pods */,
+				6424D8746FFE08C8AECC4942 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +183,9 @@
 		F550F321200D98D300B50431 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				F550F2E9200D899C00B50431 /* BaseViewController.swift */,
 				F550F2EB200D899C00B50431 /* Main.storyboard */,
 				F550F31B200D8FD400B50431 /* BaseTabBarController.swift */,
+				F550F2E9200D899C00B50431 /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -158,9 +202,11 @@
 		F550F323200D98E300B50431 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				F550F315200D8E2D00B50431 /* Library.storyboard */,
-				F550F317200D8E3700B50431 /* Search.storyboard */,
 				F550F319200D8E4300B50431 /* Settings.storyboard */,
+				F550F325200DBDF200B50431 /* Queue.storyboard */,
+				F550F317200D8E3700B50431 /* Search.storyboard */,
+				F550F327200DBE9200B50431 /* Playlists.storyboard */,
+				F550F315200D8E2D00B50431 /* Library.storyboard */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F550F30C200D899C00B50431 /* Build configuration list for PBXNativeTarget "Alto" */;
 			buildPhases = (
+				CACD0269944AB4C918D0FECC /* [CP] Check Pods Manifest.lock */,
 				F550F2E0200D899C00B50431 /* Sources */,
 				F550F2E1200D899C00B50431 /* Frameworks */,
 				F550F2E2200D899C00B50431 /* Resources */,
+				6B11BA4E663772BA6B03D523 /* [CP] Embed Pods Frameworks */,
+				723D62E6EA4CE54DC39A96D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F550F30F200D899C00B50431 /* Build configuration list for PBXNativeTarget "AltoTests" */;
 			buildPhases = (
+				E5EEDA733AA16F1ADA43343D /* [CP] Check Pods Manifest.lock */,
 				F550F2F4200D899C00B50431 /* Sources */,
 				F550F2F5200D899C00B50431 /* Frameworks */,
 				F550F2F6200D899C00B50431 /* Resources */,
+				E92C5267AA78BFD9E12B9D11 /* [CP] Embed Pods Frameworks */,
+				A8557FE10AFB5F99B8441061 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F550F312200D899C00B50431 /* Build configuration list for PBXNativeTarget "AltoUITests" */;
 			buildPhases = (
+				E3CA3F733154189BA88535DF /* [CP] Check Pods Manifest.lock */,
 				F550F2FF200D899C00B50431 /* Sources */,
 				F550F300200D899C00B50431 /* Frameworks */,
 				F550F301200D899C00B50431 /* Resources */,
+				ED1D82D80CEF116196FB2929 /* [CP] Embed Pods Frameworks */,
+				210445F576892D1BE839C131 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,7 +341,9 @@
 				F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */,
 				F550F316200D8E2D00B50431 /* Library.storyboard in Resources */,
 				F550F31A200D8E4300B50431 /* Settings.storyboard in Resources */,
+				F550F326200DBDF200B50431 /* Queue.storyboard in Resources */,
 				F550F2ED200D899C00B50431 /* Main.storyboard in Resources */,
+				F550F328200DBE9200B50431 /* Playlists.storyboard in Resources */,
 				F550F320200D907B00B50431 /* MiniPlayer.storyboard in Resources */,
 				F550F318200D8E3700B50431 /* Search.storyboard in Resources */,
 			);
@@ -307,6 +364,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		210445F576892D1BE839C131 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AltoUITests/Pods-AltoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B11BA4E663772BA6B03D523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alto/Pods-Alto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alto/Pods-Alto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		723D62E6EA4CE54DC39A96D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alto/Pods-Alto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8557FE10AFB5F99B8441061 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AltoTests/Pods-AltoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACD0269944AB4C918D0FECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CA3F733154189BA88535DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AltoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EEDA733AA16F1ADA43343D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AltoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92C5267AA78BFD9E12B9D11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AltoTests/Pods-AltoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1D82D80CEF116196FB2929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AltoUITests/Pods-AltoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F550F2E0200D899C00B50431 /* Sources */ = {
@@ -480,6 +687,7 @@
 		};
 		F550F30D200D899C00B50431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222088ECCDB2C06EF6B7D1C4 /* Pods-Alto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +703,7 @@
 		};
 		F550F30E200D899C00B50431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D2E0263DDB2E64ECE0C01D /* Pods-Alto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +719,7 @@
 		};
 		F550F310200D899C00B50431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E396DE78B015FF99F6C298 /* Pods-AltoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +737,7 @@
 		};
 		F550F311200D899C00B50431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE1F3D749EC1F55E5212528 /* Pods-AltoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +755,7 @@
 		};
 		F550F313200D899C00B50431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EC6F59446CE0A546515DC8 /* Pods-AltoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +772,7 @@
 		};
 		F550F314200D899C00B50431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C260463E80DAD22785307B91 /* Pods-AltoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
