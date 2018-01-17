@@ -24,14 +24,11 @@
                                     <segue destination="wTx-Kn-Qk5" kind="embed" id="MnS-YH-4Dz"/>
                                 </connections>
                             </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6e-UN-obY">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6e-UN-obY" customClass="MiniPlayerView" customModule="Alto" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="554" width="375" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="55j-QF-sA8"/>
                                 </constraints>
-                                <connections>
-                                    <segue destination="45o-Wq-kM9" kind="embed" id="4pK-LK-dO3"/>
-                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
@@ -48,19 +45,12 @@
                     </view>
                     <connections>
                         <outlet property="miniPlayerBottomConstraint" destination="smc-HS-4fK" id="akv-od-Bdt"/>
+                        <outlet property="miniPlayerView" destination="H6e-UN-obY" id="oEh-zX-apD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
-        </scene>
-        <!--MiniPlayer-->
-        <scene sceneID="2se-BX-NJ1">
-            <objects>
-                <viewControllerPlaceholder storyboardName="MiniPlayer" id="45o-Wq-kM9" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eNI-A9-gkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="701" y="421"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cwK-mx-Rng">
@@ -133,10 +123,10 @@
         <!--Library-->
         <scene sceneID="agK-AJ-ORm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DWf-Rl-mB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Library" id="dbU-j8-7wS" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="bkg-Gp-imB"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DWf-Rl-mB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1478" y="58"/>
         </scene>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MiniPlayerView" customModule="Alto" customModuleProvider="target">
+            <connections>
+                <outlet property="artImageView" destination="PNw-ZG-BSt" id="ggB-BY-ApW"/>
+                <outlet property="artistLabel" destination="PjG-ZI-737" id="kqg-Ua-1DZ"/>
+                <outlet property="forwardButton" destination="2iw-BV-vS7" id="MdM-E9-sfv"/>
+                <outlet property="playButton" destination="b6i-gQ-Zlv" id="eUg-Mz-P6v"/>
+                <outlet property="songLabel" destination="PjL-KE-WPA" id="VtY-eh-BfM"/>
+                <outlet property="view" destination="iN0-l3-epB" id="IRL-AD-uSo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MiniPlayerView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beatlesAlbumArt" translatesAutoresizingMaskIntoConstraints="NO" id="PNw-ZG-BSt">
+                    <rect key="frame" x="20" y="8" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="1zi-Ki-fEo"/>
+                        <constraint firstAttribute="height" constant="48" id="rbk-W4-nck"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjL-KE-WPA">
+                    <rect key="frame" x="84" y="8" width="171" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist | Album" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjG-ZI-737">
+                    <rect key="frame" x="84" y="38" width="171" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6i-gQ-Zlv">
+                    <rect key="frame" x="263" y="8" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="7pT-Lz-Imb"/>
+                        <constraint firstAttribute="width" constant="48" id="PHx-tY-qr5"/>
+                    </constraints>
+                    <state key="normal" image="miniplayer_pause">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="onPlayTapped:" destination="-1" eventType="touchUpInside" id="Uko-Yo-bTb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iw-BV-vS7">
+                    <rect key="frame" x="311" y="8" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="TXd-Hi-pCY"/>
+                        <constraint firstAttribute="width" constant="48" id="mXd-bv-eig"/>
+                    </constraints>
+                    <state key="normal" image="miniplayer_next">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="onForwardTapped:" destination="-1" eventType="touchUpInside" id="TvR-pe-U82"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.30588235289999999" green="0.66274509800000003" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="PjG-ZI-737" firstAttribute="leading" secondItem="PNw-ZG-BSt" secondAttribute="trailing" constant="16" id="7da-yD-KFo"/>
+                <constraint firstItem="b6i-gQ-Zlv" firstAttribute="centerY" secondItem="2iw-BV-vS7" secondAttribute="centerY" id="9iZ-ly-WV9"/>
+                <constraint firstItem="b6i-gQ-Zlv" firstAttribute="leading" secondItem="PjL-KE-WPA" secondAttribute="trailing" priority="750" constant="8" id="FFg-2W-9v6"/>
+                <constraint firstItem="2iw-BV-vS7" firstAttribute="leading" secondItem="b6i-gQ-Zlv" secondAttribute="trailing" id="IRI-yU-yYU"/>
+                <constraint firstItem="PjG-ZI-737" firstAttribute="bottom" secondItem="PNw-ZG-BSt" secondAttribute="bottom" id="T7L-nr-YgP"/>
+                <constraint firstItem="PjL-KE-WPA" firstAttribute="leading" secondItem="PNw-ZG-BSt" secondAttribute="trailing" constant="16" id="X87-iJ-hOm"/>
+                <constraint firstItem="PNw-ZG-BSt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bYC-JY-Qvm"/>
+                <constraint firstItem="PNw-ZG-BSt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="dxa-rJ-Hyw"/>
+                <constraint firstItem="b6i-gQ-Zlv" firstAttribute="leading" secondItem="PjG-ZI-737" secondAttribute="trailing" priority="750" constant="8" id="hdY-Kg-MKh"/>
+                <constraint firstItem="2iw-BV-vS7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="md4-OB-Vg3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2iw-BV-vS7" secondAttribute="trailing" constant="16" id="p7T-Ji-bP6"/>
+                <constraint firstItem="PjL-KE-WPA" firstAttribute="top" secondItem="PNw-ZG-BSt" secondAttribute="top" id="sE7-MQ-8tl"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="0W0-tK-Ikq" appends="YES" id="tL2-OW-h44"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="54"/>
+        </view>
+        <tapGestureRecognizer id="0W0-tK-Ikq">
+            <connections>
+                <action selector="onSuperviewTapped:" destination="-1" id="eRg-HL-h0N"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="beatlesAlbumArt" width="250" height="250"/>
+        <image name="miniplayer_next" width="28" height="17"/>
+        <image name="miniplayer_pause" width="15" height="20"/>
+    </resources>
+</document>

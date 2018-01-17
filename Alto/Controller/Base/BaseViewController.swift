@@ -13,11 +13,16 @@ class BaseViewController: UIViewController {
 
     @IBOutlet weak var miniPlayerBottomConstraint: NSLayoutConstraint!
     var oauthswift: OAuthSwift!
+    @IBOutlet weak var miniPlayerView: MiniPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.miniPlayerBottomConstraint.constant = -UITabBarController().tabBar.frame.size.height
         self.oauth()
+        
+        self.miniPlayerView.didTapSuperview = { gesture in
+            print("👆didTapSuperview")
+        }
     }
     
     func oauth() {
@@ -54,4 +59,3 @@ class BaseViewController: UIViewController {
     }
 
 }
-
