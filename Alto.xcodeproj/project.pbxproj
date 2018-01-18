@@ -10,6 +10,9 @@
 		4E5739F459D6283F4E6D544E /* Pods_AltoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E8D8F83B90A4A6FB733974 /* Pods_AltoTests.framework */; };
 		D0CBC6862D9E918C76FCB0B6 /* Pods_AltoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846E35D41364023A1EC8575F /* Pods_AltoUITests.framework */; };
 		E91900D46A6D90F2B7D4852D /* Pods_Alto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148A45BE16A99598F80C553B /* Pods_Alto.framework */; };
+		F51D1D76200ED49E00E29729 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D1D75200ED49E00E29729 /* NSObject+Extensions.swift */; };
+		F51D1D78200EDADE00E29729 /* MiniPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D1D77200EDADE00E29729 /* MiniPlayerView.xib */; };
+		F52B43DF20105590009C7929 /* AMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52B43DE20105590009C7929 /* AMNavigationController.swift */; };
 		F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E7200D899C00B50431 /* AppDelegate.swift */; };
 		F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E9200D899C00B50431 /* BaseViewController.swift */; };
 		F550F2ED200D899C00B50431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EB200D899C00B50431 /* Main.storyboard */; };
@@ -21,10 +24,11 @@
 		F550F318200D8E3700B50431 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F317200D8E3700B50431 /* Search.storyboard */; };
 		F550F31A200D8E4300B50431 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F319200D8E4300B50431 /* Settings.storyboard */; };
 		F550F31C200D8FD400B50431 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31B200D8FD400B50431 /* BaseTabBarController.swift */; };
-		F550F31E200D904600B50431 /* MiniPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31D200D904600B50431 /* MiniPlayerViewController.swift */; };
-		F550F320200D907B00B50431 /* MiniPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F31F200D907B00B50431 /* MiniPlayer.storyboard */; };
+		F550F31E200D904600B50431 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F31D200D904600B50431 /* MiniPlayerView.swift */; };
 		F550F326200DBDF200B50431 /* Queue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F325200DBDF200B50431 /* Queue.storyboard */; };
 		F550F328200DBE9200B50431 /* Playlists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F327200DBE9200B50431 /* Playlists.storyboard */; };
+		F5841934200EFB24005913EF /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5841933200EFB24005913EF /* NowPlayingViewController.swift */; };
+		F5841936200EFB47005913EF /* NowPlaying.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5841935200EFB47005913EF /* NowPlaying.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,9 @@
 		C260463E80DAD22785307B91 /* Pods-AltoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AltoUITests/Pods-AltoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E7E8D8F83B90A4A6FB733974 /* Pods_AltoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D2E0263DDB2E64ECE0C01D /* Pods-Alto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alto/Pods-Alto.release.xcconfig"; sourceTree = "<group>"; };
+		F51D1D75200ED49E00E29729 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		F51D1D77200EDADE00E29729 /* MiniPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiniPlayerView.xib; sourceTree = "<group>"; };
+		F52B43DE20105590009C7929 /* AMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMNavigationController.swift; sourceTree = "<group>"; };
 		F550F2E4200D899C00B50431 /* Alto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F550F2E7200D899C00B50431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F550F2E9200D899C00B50431 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -71,10 +78,11 @@
 		F550F317200D8E3700B50431 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		F550F319200D8E4300B50431 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		F550F31B200D8FD400B50431 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
-		F550F31D200D904600B50431 /* MiniPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerViewController.swift; sourceTree = "<group>"; };
-		F550F31F200D907B00B50431 /* MiniPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniPlayer.storyboard; sourceTree = "<group>"; };
+		F550F31D200D904600B50431 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		F550F325200DBDF200B50431 /* Queue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Queue.storyboard; sourceTree = "<group>"; };
 		F550F327200DBE9200B50431 /* Playlists.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Playlists.storyboard; sourceTree = "<group>"; };
+		F5841933200EFB24005913EF /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		F5841935200EFB47005913EF /* NowPlaying.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NowPlaying.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F51D1D73200ED47D00E29729 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F51D1D74200ED48400E29729 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F51D1D74200ED48400E29729 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F51D1D75200ED49E00E29729 /* NSObject+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F52B43DD200F02B3009C7929 /* Playing */ = {
+			isa = PBXGroup;
+			children = (
+				F5841937200EFB69005913EF /* Now Playing */,
+				F550F322200D98DA00B50431 /* MiniPlayer */,
+			);
+			path = Playing;
+			sourceTree = "<group>";
+		};
 		F550F2DB200D899C00B50431 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +188,7 @@
 			children = (
 				F550F2E7200D899C00B50431 /* AppDelegate.swift */,
 				F550F324200D98F300B50431 /* Controller */,
+				F51D1D73200ED47D00E29729 /* Utilities */,
 				F550F2EE200D899C00B50431 /* Assets.xcassets */,
 				F550F2F0200D899C00B50431 /* LaunchScreen.storyboard */,
 				F550F2F3200D899C00B50431 /* Info.plist */,
@@ -186,6 +220,7 @@
 				F550F2EB200D899C00B50431 /* Main.storyboard */,
 				F550F31B200D8FD400B50431 /* BaseTabBarController.swift */,
 				F550F2E9200D899C00B50431 /* BaseViewController.swift */,
+				F52B43DE20105590009C7929 /* AMNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -193,8 +228,8 @@
 		F550F322200D98DA00B50431 /* MiniPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				F550F31F200D907B00B50431 /* MiniPlayer.storyboard */,
-				F550F31D200D904600B50431 /* MiniPlayerViewController.swift */,
+				F51D1D77200EDADE00E29729 /* MiniPlayerView.xib */,
+				F550F31D200D904600B50431 /* MiniPlayerView.swift */,
 			);
 			path = MiniPlayer;
 			sourceTree = "<group>";
@@ -215,10 +250,19 @@
 			isa = PBXGroup;
 			children = (
 				F550F321200D98D300B50431 /* Base */,
-				F550F322200D98DA00B50431 /* MiniPlayer */,
+				F52B43DD200F02B3009C7929 /* Playing */,
 				F550F323200D98E300B50431 /* Tabs */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5841937200EFB69005913EF /* Now Playing */ = {
+			isa = PBXGroup;
+			children = (
+				F5841935200EFB47005913EF /* NowPlaying.storyboard */,
+				F5841933200EFB24005913EF /* NowPlayingViewController.swift */,
+			);
+			path = "Now Playing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,14 +381,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51D1D78200EDADE00E29729 /* MiniPlayerView.xib in Resources */,
 				F550F2F2200D899C00B50431 /* LaunchScreen.storyboard in Resources */,
 				F550F2EF200D899C00B50431 /* Assets.xcassets in Resources */,
 				F550F316200D8E2D00B50431 /* Library.storyboard in Resources */,
+				F5841936200EFB47005913EF /* NowPlaying.storyboard in Resources */,
 				F550F31A200D8E4300B50431 /* Settings.storyboard in Resources */,
 				F550F326200DBDF200B50431 /* Queue.storyboard in Resources */,
 				F550F2ED200D899C00B50431 /* Main.storyboard in Resources */,
 				F550F328200DBE9200B50431 /* Playlists.storyboard in Resources */,
-				F550F320200D907B00B50431 /* MiniPlayer.storyboard in Resources */,
 				F550F318200D8E3700B50431 /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,10 +433,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Alto/Pods-Alto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeckTransition/DeckTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeckTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,9 +567,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51D1D76200ED49E00E29729 /* NSObject+Extensions.swift in Sources */,
 				F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */,
+				F52B43DF20105590009C7929 /* AMNavigationController.swift in Sources */,
 				F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */,
-				F550F31E200D904600B50431 /* MiniPlayerViewController.swift in Sources */,
+				F550F31E200D904600B50431 /* MiniPlayerView.swift in Sources */,
+				F5841934200EFB24005913EF /* NowPlayingViewController.swift in Sources */,
 				F550F31C200D8FD400B50431 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

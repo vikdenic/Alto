@@ -8,16 +8,23 @@
 
 import UIKit
 import OAuthSwift
+import DeckTransition
 
 class BaseViewController: UIViewController {
 
     @IBOutlet weak var miniPlayerBottomConstraint: NSLayoutConstraint!
     var oauthswift: OAuthSwift!
+    @IBOutlet weak var miniPlayerView: MiniPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.miniPlayerBottomConstraint.constant = -UITabBarController().tabBar.frame.size.height
         self.oauth()
+        
+        self.miniPlayerView.didTapSuperview = { gesture in
+            print("👆didTapSuperview")
+            self.performSegue(withIdentifier: "\(BaseViewController.className)To\(NowPlayingViewController.className)", sender: self)
+        }
     }
     
     func oauth() {
@@ -54,4 +61,3 @@ class BaseViewController: UIViewController {
     }
 
 }
-
