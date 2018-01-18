@@ -61,3 +61,12 @@ class BaseViewController: UIViewController {
     }
 
 }
+
+extension BaseViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "\(BaseViewController.className)To\(NowPlayingViewController.className)" {
+            let nowPlayingVC = segue.destination as! NowPlayingViewController
+            nowPlayingVC.song = self.miniPlayerView.song
+        }
+    }
+}

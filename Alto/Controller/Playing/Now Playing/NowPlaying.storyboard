@@ -17,13 +17,32 @@
                     <view key="view" contentMode="scaleToFill" id="U9H-py-7fA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beatlesAlbumArt" translatesAutoresizingMaskIntoConstraints="NO" id="1ZI-4V-tb1">
+                                <rect key="frame" x="74.5" y="220.5" width="225" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="o2k-EF-c35"/>
+                                    <constraint firstAttribute="height" constant="225" id="vJ1-Pb-IYd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1ZI-4V-tb1" firstAttribute="centerY" secondItem="U9H-py-7fA" secondAttribute="centerY" id="HSj-db-G4L"/>
+                            <constraint firstItem="1ZI-4V-tb1" firstAttribute="centerX" secondItem="U9H-py-7fA" secondAttribute="centerX" id="OBc-SJ-MNJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RUC-kq-9CG"/>
                     </view>
+                    <connections>
+                        <outlet property="artImageView" destination="1ZI-4V-tb1" id="MbD-Zv-wOg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1a-zS-ctu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="158" y="154"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="beatlesAlbumArt" width="250" height="250"/>
+    </resources>
 </document>

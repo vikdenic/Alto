@@ -7,11 +7,21 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 class NowPlayingViewController: UIViewController {
+    
+    @IBOutlet weak var artImageView: UIImageView!
+    
+    var song: Song?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let song = song {
+            let image = UIImage(named: song.artName)!
+            self.artImageView.image = image
+            self.view.backgroundColor = AverageColorFromImage(image)
+        }
     }
 
 }

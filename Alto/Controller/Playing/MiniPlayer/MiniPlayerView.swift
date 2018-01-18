@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 @IBDesignable
 
@@ -33,8 +34,8 @@ class MiniPlayerView: UIView {
     func setupView() {
         let bundle = Bundle(for: type(of: self))
         UINib(nibName: MiniPlayerView.className, bundle: bundle).instantiate(withOwner: self, options: nil)
-        addSubview(view)
-        view.frame = bounds
+        addSubview(self.view)
+        self.view.frame = bounds
     }
     
     func setSongInfo() {
@@ -42,6 +43,12 @@ class MiniPlayerView: UIView {
         if let song = self.song {
             songLabel.text = song.title
             artistLabel.text = "\(song.artist) | \(song.album)"
+            
+            if let artName = self.song?.artName {
+                let image = UIImage(named: artName)!
+                self.artImageView.image = image
+                self.view.backgroundColor = AverageColorFromImage(image)
+            }
         }
     }
     
@@ -63,4 +70,5 @@ struct Song {
     var title = "A Day in the Life"
     var artist = "The Beatles"
     var album = "Sgt. Pepper's Lonely Hearts Club Band"
+    var artName = "beatlesAlbumArt"
 }
