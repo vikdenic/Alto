@@ -12,6 +12,7 @@
 		E91900D46A6D90F2B7D4852D /* Pods_Alto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148A45BE16A99598F80C553B /* Pods_Alto.framework */; };
 		F51D1D76200ED49E00E29729 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D1D75200ED49E00E29729 /* NSObject+Extensions.swift */; };
 		F51D1D78200EDADE00E29729 /* MiniPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D1D77200EDADE00E29729 /* MiniPlayerView.xib */; };
+		F52B43DF20105590009C7929 /* AMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52B43DE20105590009C7929 /* AMNavigationController.swift */; };
 		F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E7200D899C00B50431 /* AppDelegate.swift */; };
 		F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550F2E9200D899C00B50431 /* BaseViewController.swift */; };
 		F550F2ED200D899C00B50431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550F2EB200D899C00B50431 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		F0D2E0263DDB2E64ECE0C01D /* Pods-Alto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alto/Pods-Alto.release.xcconfig"; sourceTree = "<group>"; };
 		F51D1D75200ED49E00E29729 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
 		F51D1D77200EDADE00E29729 /* MiniPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiniPlayerView.xib; sourceTree = "<group>"; };
+		F52B43DE20105590009C7929 /* AMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMNavigationController.swift; sourceTree = "<group>"; };
 		F550F2E4200D899C00B50431 /* Alto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F550F2E7200D899C00B50431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F550F2E9200D899C00B50431 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F52B43DD200F02B3009C7929 /* Playing */ = {
+			isa = PBXGroup;
+			children = (
+				F5841937200EFB69005913EF /* Now Playing */,
+				F550F322200D98DA00B50431 /* MiniPlayer */,
+			);
+			path = Playing;
+			sourceTree = "<group>";
+		};
 		F550F2DB200D899C00B50431 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +220,7 @@
 				F550F2EB200D899C00B50431 /* Main.storyboard */,
 				F550F31B200D8FD400B50431 /* BaseTabBarController.swift */,
 				F550F2E9200D899C00B50431 /* BaseViewController.swift */,
+				F52B43DE20105590009C7929 /* AMNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -238,8 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				F550F321200D98D300B50431 /* Base */,
-				F550F322200D98DA00B50431 /* MiniPlayer */,
-				F5841937200EFB69005913EF /* Now Playing */,
+				F52B43DD200F02B3009C7929 /* Playing */,
 				F550F323200D98E300B50431 /* Tabs */,
 			);
 			path = Controller;
@@ -558,6 +569,7 @@
 			files = (
 				F51D1D76200ED49E00E29729 /* NSObject+Extensions.swift in Sources */,
 				F550F2EA200D899C00B50431 /* BaseViewController.swift in Sources */,
+				F52B43DF20105590009C7929 /* AMNavigationController.swift in Sources */,
 				F550F2E8200D899C00B50431 /* AppDelegate.swift in Sources */,
 				F550F31E200D904600B50431 /* MiniPlayerView.swift in Sources */,
 				F5841934200EFB24005913EF /* NowPlayingViewController.swift in Sources */,

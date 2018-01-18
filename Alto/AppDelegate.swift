@@ -17,6 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UIApplication.shared.statusBarStyle = .lightContent
+        
+        let selectedColor   = UIColor.white
+        let unselectedColor = UIColor(red: 145.0/255.0, green: 146.0/255.0, blue: 146.0/255.0, alpha: 1.0)
+        UITabBarItem.appearance().setTitleTextAttributes(
+            [NSAttributedStringKey.foregroundColor: unselectedColor], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes(
+            [NSAttributedStringKey.foregroundColor: selectedColor], for: .selected)
+        
+        let narBarBarTintColor = UIColor(red: 40.0/255.0, green: 40.0/255.0, blue: 40.0/255.0, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = narBarBarTintColor
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+
         return true
     }
 
